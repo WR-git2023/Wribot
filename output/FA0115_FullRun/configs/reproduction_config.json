@@ -1,0 +1,6 @@
+{
+  "mode": "paper_only_fallback_scaffold",
+  "paper_id": "FA0115",
+  "allow_fabrication": false,
+  "target_output": "results/reproduction_metrics.json"
+}

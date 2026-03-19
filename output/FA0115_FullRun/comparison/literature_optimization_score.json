@@ -1,0 +1,46 @@
+{
+  "paper_id": "FA0115",
+  "title": "OCR-Anchor Reranking: When Best-of-N Selection Fails Due to Candidate Homogeneity",
+  "literature_score": 55,
+  "related_work_rows": [
+    {
+      "work": "N=1 Baseline",
+      "relationship": "baseline",
+      "comparison": "Mentioned in the paper-only extracted context.",
+      "confidence": "medium"
+    },
+    {
+      "work": "Self-Score",
+      "relationship": "baseline",
+      "comparison": "Mentioned in the paper-only extracted context.",
+      "confidence": "medium"
+    },
+    {
+      "work": "Random",
+      "relationship": "baseline",
+      "comparison": "Mentioned in the paper-only extracted context.",
+      "confidence": "medium"
+    },
+    {
+      "work": "Anchor Cover- age",
+      "relationship": "baseline",
+      "comparison": "Mentioned in the paper-only extracted context.",
+      "confidence": "medium"
+    },
+    {
+      "work": "Consensus",
+      "relationship": "baseline",
+      "comparison": "Mentioned in the paper-only extracted context.",
+      "confidence": "medium"
+    }
+  ],
+  "baseline_assessment": "Baseline coverage appears reasonable in the extracted paper text, but external verification was limited in the fallback path.",
+  "optimization_recommendations": [
+    "Prioritize reproducing the core benchmark with task-specific data/model assets before expanding ablations.",
+    "Add explicit dataset preparation and evaluation scripts to reduce ambiguity."
+  ],
+  "evidence_limitations": [
+    "Fallback literature analysis relied mostly on extracted paper context.",
+    "External knowledge use was not guaranteed in the failure-handling path."
+  ]
+}

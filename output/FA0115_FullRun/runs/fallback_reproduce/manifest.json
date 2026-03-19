@@ -1,0 +1,18 @@
+{
+  "name": "fallback_reproduce",
+  "argv": [
+    "python",
+    "src/reproduce.py",
+    "--spec",
+    "spec.json",
+    "--config",
+    "configs/reproduction_config.json",
+    "--output",
+    "results/reproduction_metrics.json"
+  ],
+  "cwd": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun",
+  "status": "success",
+  "returncode": 0,
+  "stdout_path": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun\\runs\\fallback_reproduce\\stdout.txt",
+  "stderr_path": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun\\runs\\fallback_reproduce\\stderr.txt"
+}

@@ -1,0 +1,26 @@
+{
+  "paper_id": "FA0115",
+  "title": "OCR-Anchor Reranking: When Best-of-N Selection Fails Due to Candidate Homogeneity",
+  "aggregate_backend": "codex",
+  "final_verdict": "weak_accept",
+  "confidence_score": 63,
+  "dimension_scores": {
+    "open_source": 85,
+    "reproduction": 58,
+    "logic": 58,
+    "literature": 55,
+    "overall": 59
+  },
+  "consensus_summary": [
+    "The pipeline now produces complete auditable artifacts.",
+    "Some stages may still fall back to deterministic logic when model outputs violate the schema contract."
+  ],
+  "disagreements": [
+    "Reviewers are aligned on operational completeness but remain cautious on scientific completeness."
+  ],
+  "recommendations": [
+    "Keep the JSON contracts and local validations as hard gates.",
+    "Improve stage-specific model prompts or swap in a stronger model for scientific depth."
+  ],
+  "reviewer_outputs_path": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun\\comparison\\reviewer_outputs.json"
+}

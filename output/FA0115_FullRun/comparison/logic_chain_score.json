@@ -1,0 +1,27 @@
+{
+  "paper_id": "FA0115",
+  "title": "OCR-Anchor Reranking: When Best-of-N Selection Fails Due to Candidate Homogeneity",
+  "consistency_score": 58,
+  "headline_claims": [
+    "ABSTRACT Best-of-N sampling has shown success in improving language model outputs for reasoning tasks. We investigate whether this approach can improve vision- language model (VLM) outputs for document OCR by using traditional OCR as a proxy verifier. We propose OCR-Anchor Reranking, a training-free method that extracts high-confidence anchor tokens from a classical OCR engine (PaddleOCR) and selects the VLM candidate with highest anchor coverage."
+  ],
+  "logic_chain_rows": [
+    {
+      "claim": "ABSTRACT Best-of-N sampling has shown success in improving language model outputs for reasoning tasks. We investigate whether this approach can improve vision- language model (VLM) outputs for document OCR by using traditional OCR as a proxy verifier. We propose OCR-Anchor Reranking, a training-free method that extracts high-confidence anchor tokens from a classical OCR engine (PaddleOCR) and selects the VLM candidate with highest anchor coverage.",
+      "paper_evidence": "Paper text and tables indicate the core result/claim.",
+      "reproduction_evidence": "Pipeline generated executable artifacts and a partial reproduction report.",
+      "status": "partially_supported"
+    }
+  ],
+  "numeric_checks": [
+    {
+      "item": "paper tables vs reproduction",
+      "observation": "Fallback path did not fully measure headline numbers locally.",
+      "status": "unclear"
+    }
+  ],
+  "key_gaps": [
+    "Local fallback execution validates the pipeline but does not fully validate the headline experimental numbers.",
+    "Scientific conclusions remain only partially verified without a task-specific full implementation."
+  ]
+}

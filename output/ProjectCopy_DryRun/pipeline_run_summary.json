@@ -1,0 +1,21 @@
+{
+  "paper_id": "FA0115",
+  "title": "OCR-Anchor Reranking: When Best-of-N Selection Fails Due to Candidate Homogeneity",
+  "paper_pdf": "C:\\Users\\Administrator\\Desktop\\AI communication\\output\\analemma_fars_20260318\\spec_templates\\FA0115\\paper.pdf",
+  "output_dir": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\ProjectCopy_DryRun",
+  "requested_stages": [
+    "open_source",
+    "reproduction",
+    "logic",
+    "literature",
+    "review"
+  ],
+  "base_agent": "main",
+  "started_at": "2026-03-20T01:44:09",
+  "completed_at": "2026-03-20T01:44:09",
+  "status": "dry_run",
+  "stage_results": {},
+  "backend_policy": {},
+  "workspaces": {},
+  "dry_run": true
+}

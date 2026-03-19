@@ -1,0 +1,20 @@
+{
+  "paper_id": "FA0115",
+  "title": "OCR-Anchor Reranking: When Best-of-N Selection Fails Due to Candidate Homogeneity",
+  "code_url": "https://gitlab.com/fars-a/proxy-verifier-ocr-reranking.git",
+  "repo_access": true,
+  "repo_http_status": 200,
+  "repo_host": "gitlab.com",
+  "open_source_level": "fully_open",
+  "initial_open_source_score": 85,
+  "evidence": [
+    "code_url=https://gitlab.com/fars-a/proxy-verifier-ocr-reranking.git",
+    "repo_http_status=200",
+    "repo_metadata_signals_present",
+    "repo_host=gitlab.com"
+  ],
+  "reproduction_implications": [
+    "Repository appears reachable with useful project metadata; initial reproduction friction is lower."
+  ],
+  "report_markdown": "## Evidence\n- code_url=https://gitlab.com/fars-a/proxy-verifier-ocr-reranking.git\n- repo_http_status=200\n- repo_metadata_signals_present\n- repo_host=gitlab.com\n\n## Reproduction Implications\n- Repository appears reachable with useful project metadata; initial reproduction friction is lower."
+}

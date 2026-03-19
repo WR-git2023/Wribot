@@ -1,0 +1,54 @@
+{
+  "paper_id": "FA0115",
+  "title": "OCR-Anchor Reranking: When Best-of-N Selection Fails Due to Candidate Homogeneity",
+  "paper_pdf": "C:\\Users\\Administrator\\Desktop\\AI communication\\output\\analemma_fars_20260318\\spec_templates\\FA0115\\paper.pdf",
+  "output_dir": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\ProjectCopy_OpenSourceOnly",
+  "requested_stages": [
+    "open_source"
+  ],
+  "base_agent": "main",
+  "started_at": "2026-03-20T01:44:20",
+  "completed_at": "2026-03-20T01:45:24",
+  "status": "ok",
+  "stage_results": {
+    "open_source": {
+      "status": "ok",
+      "started_at": "2026-03-20T01:44:20",
+      "completed_at": "2026-03-20T01:45:24"
+    }
+  },
+  "backend_policy": {
+    "open_source": {
+      "backend": "codex",
+      "model": "gpt-5.3-codex"
+    },
+    "reproduction": {
+      "backend": "codex",
+      "model": "gpt-5.3-codex"
+    },
+    "logic": {
+      "backend": "codex",
+      "model": "gpt-5.3-codex"
+    },
+    "literature": {
+      "backend": "codex",
+      "model": "gpt-5.3-codex"
+    },
+    "review_aggregate": {
+      "backend": "codex",
+      "model": "gpt-5.3-codex"
+    },
+    "reviewers": []
+  },
+  "workspaces": {
+    "stages": {
+      "open_source": {
+        "backend": "codex",
+        "model": "gpt-5.3-codex",
+        "workspace": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\ProjectCopy_OpenSourceOnly\\.agent_workspaces\\FA0115-20260320014420-open_source"
+      }
+    },
+    "reviewers": []
+  },
+  "dry_run": false
+}

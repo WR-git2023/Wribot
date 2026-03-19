@@ -1,0 +1,5 @@
+requests
+pypdf
+PyMuPDF
+python-docx
+reportlab

@@ -1,0 +1,144 @@
+{
+  "paper_id": "FA0115",
+  "title": "OCR-Anchor Reranking: When Best-of-N Selection Fails Due to Candidate Homogeneity",
+  "paper_pdf": "C:\\Users\\Administrator\\Desktop\\AI communication\\output\\analemma_fars_20260318\\spec_templates\\FA0115\\paper.pdf",
+  "output_dir": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun",
+  "requested_stages": [
+    "open_source",
+    "reproduction",
+    "logic",
+    "literature",
+    "review"
+  ],
+  "base_agent": "main",
+  "started_at": "2026-03-20T01:47:35",
+  "completed_at": "2026-03-20T02:05:58",
+  "status": "ok",
+  "stage_results": {
+    "open_source": {
+      "status": "ok",
+      "started_at": "2026-03-20T01:47:35",
+      "completed_at": "2026-03-20T01:48:39"
+    },
+    "reproduction": {
+      "status": "ok",
+      "started_at": "2026-03-20T01:48:39",
+      "completed_at": "2026-03-20T01:53:14"
+    },
+    "logic": {
+      "status": "ok",
+      "started_at": "2026-03-20T01:53:14",
+      "completed_at": "2026-03-20T01:54:46"
+    },
+    "literature": {
+      "status": "ok",
+      "started_at": "2026-03-20T01:54:46",
+      "completed_at": "2026-03-20T01:56:18"
+    },
+    "review": {
+      "status": "ok",
+      "started_at": "2026-03-20T01:56:18",
+      "completed_at": "2026-03-20T02:05:58"
+    }
+  },
+  "backend_policy": {
+    "open_source": {
+      "backend": "codex",
+      "model": "gpt-5.3-codex"
+    },
+    "reproduction": {
+      "backend": "codex",
+      "model": "gpt-5.3-codex"
+    },
+    "logic": {
+      "backend": "codex",
+      "model": "gpt-5.3-codex"
+    },
+    "literature": {
+      "backend": "codex",
+      "model": "gpt-5.3-codex"
+    },
+    "review_aggregate": {
+      "backend": "codex",
+      "model": "gpt-5.3-codex"
+    },
+    "reviewers": [
+      {
+        "slug": "code_audit",
+        "backend": "codex",
+        "model": "gpt-5.3-codex"
+      },
+      {
+        "slug": "repro_verifier",
+        "backend": "opencode",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      {
+        "slug": "method_reviewer",
+        "backend": "codex",
+        "model": "gpt-5.3-codex"
+      },
+      {
+        "slug": "literature_reviewer",
+        "backend": "opencode",
+        "model": "opencode/mimo-v2-omni-free"
+      }
+    ]
+  },
+  "workspaces": {
+    "stages": {
+      "open_source": {
+        "backend": "codex",
+        "model": "gpt-5.3-codex",
+        "workspace": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun\\.agent_workspaces\\FA0115-20260320014735-open_source"
+      },
+      "reproduction": {
+        "backend": "codex",
+        "model": "gpt-5.3-codex",
+        "workspace": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun\\.agent_workspaces\\FA0115-20260320014735-reproduction"
+      },
+      "logic": {
+        "backend": "codex",
+        "model": "gpt-5.3-codex",
+        "workspace": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun\\.agent_workspaces\\FA0115-20260320014735-logic"
+      },
+      "literature": {
+        "backend": "codex",
+        "model": "gpt-5.3-codex",
+        "workspace": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun\\.agent_workspaces\\FA0115-20260320014735-literature"
+      },
+      "review_aggregate": {
+        "backend": "codex",
+        "model": "gpt-5.3-codex",
+        "workspace": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun\\.agent_workspaces\\FA0115-20260320014735-review-aggregate"
+      }
+    },
+    "reviewers": [
+      {
+        "slug": "code_audit",
+        "backend": "codex",
+        "model": "gpt-5.3-codex",
+        "workspace": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun\\.agent_workspaces\\FA0115-20260320014735-code_audit"
+      },
+      {
+        "slug": "repro_verifier",
+        "backend": "opencode",
+        "model": "opencode/mimo-v2-omni-free",
+        "workspace": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun\\.agent_workspaces\\FA0115-20260320014735-repro_verifier"
+      },
+      {
+        "slug": "method_reviewer",
+        "backend": "codex",
+        "model": "gpt-5.3-codex",
+        "workspace": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun\\.agent_workspaces\\FA0115-20260320014735-method_reviewer"
+      },
+      {
+        "slug": "literature_reviewer",
+        "backend": "opencode",
+        "model": "opencode/mimo-v2-omni-free",
+        "workspace": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun\\.agent_workspaces\\FA0115-20260320014735-literature_reviewer"
+      }
+    ]
+  },
+  "dry_run": false
+}

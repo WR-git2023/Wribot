@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-03-20T01:51:42",
+  "paper_id": "FA0115",
+  "status": "partial",
+  "measured": false,
+  "config": {
+    "mode": "paper_only_fallback_scaffold",
+    "paper_id": "FA0115",
+    "allow_fabrication": false,
+    "target_output": "results/reproduction_metrics.json"
+  },
+  "metrics": [
+    {
+      "metric": "unit-test pass rate",
+      "paper_value": "see paper tables",
+      "reproduced_value": null,
+      "measured": false,
+      "status": "partial",
+      "notes": "Fallback scaffold executed without full dataset/model assets."
+    },
+    {
+      "metric": "pass rate",
+      "paper_value": "see paper tables",
+      "reproduced_value": null,
+      "measured": false,
+      "status": "partial",
+      "notes": "Fallback scaffold executed without full dataset/model assets."
+    },
+    {
+      "metric": "coverage",
+      "paper_value": "see paper tables",
+      "reproduced_value": null,
+      "measured": false,
+      "status": "partial",
+      "notes": "Fallback scaffold executed without full dataset/model assets."
+    },
+    {
+      "metric": "jaccard similarity",
+      "paper_value": "see paper tables",
+      "reproduced_value": null,
+      "measured": false,
+      "status": "partial",
+      "notes": "Fallback scaffold executed without full dataset/model assets."
+    },
+    {
+      "metric": "candidate identity rate",
+      "paper_value": "see paper tables",
+      "reproduced_value": null,
+      "measured": false,
+      "status": "partial",
+      "notes": "Fallback scaffold executed without full dataset/model assets."
+    }
+  ],
+  "summary": "The fallback scaffold ran successfully, but headline benchmark values were not measured locally."
+}

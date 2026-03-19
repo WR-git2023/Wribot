@@ -1,0 +1,21 @@
+{
+  "reviewer_slug": "literature_reviewer",
+  "reviewer_title": "Literature Baseline Reviewer",
+  "scores": {
+    "scope_fit": 60,
+    "evidence_quality": 50,
+    "execution_quality": 55,
+    "risk_level": 65
+  },
+  "findings": [
+    "Literature Baseline Reviewer fallback review: pipeline artifacts are present, but some judgments remain conservative because model outputs required local fallback."
+  ],
+  "questions": [
+    "Can the task-specific experiment be extended beyond the fallback scaffold to directly measure the main table?"
+  ],
+  "verdict": "approve_with_reservations",
+  "confidence": 0.62,
+  "report_markdown": "## Focus\nPrioritize baseline coverage, SOTA positioning, related-work accuracy, and whether the optimization recommendations are well grounded.\n\n## Assessment\nThe pipeline is operational and auditable, but this review remains conservative because part of the stage output was produced by deterministic fallback logic.",
+  "backend": "opencode",
+  "model": "opencode/mimo-v2-omni-free"
+}

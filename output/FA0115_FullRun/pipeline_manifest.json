@@ -1,0 +1,9 @@
+{
+  "paper_id": "FA0115",
+  "title": "OCR-Anchor Reranking: When Best-of-N Selection Fails Due to Candidate Homogeneity",
+  "paper_pdf": "C:\\Users\\Administrator\\Desktop\\AI communication\\output\\analemma_fars_20260318\\spec_templates\\FA0115\\paper.pdf",
+  "output_dir": "C:\\Users\\Administrator\\Desktop\\AI communication\\Experimental evaluation\\output\\FA0115_FullRun",
+  "created_at": "2026-03-20T01:47:35",
+  "pipeline_version": "v2",
+  "notes": "Structured JSON pipeline with strict stage validations."
+}
